@@ -1,0 +1,82 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top_nav {
+    padding: 40px 60px 10px;
+    background-color:azure;
+    
+    
+
+}
+
+
+
+
+.nav_search {
+    position: relative;
+    left: 60%;
+}
+
+.logo_png{
+    position: relative;
+    left: 40%;
+}
+
+.logo_png,.nav_search,.nav_content{
+    display: inline-block;
+}
+
+.logo_png {
+    vertical-align: middle;
+    
+}
+
+.nav_search {
+    vertical-align: mi;
+}
+
+.nav_content {
+    vertical-align: middle;
+}
+
+
+
+.nav_sticky {
+     text-align: center;
+    position: sticky;
+    top: 20px;
+    margin-top: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: uppercase;
+    
+}
+
+.nav_sticky :hover {
+      font-size: 25px;
+      background-color: azure;
+      
+
+}
+
+
+
+
+
+
+
+
+
