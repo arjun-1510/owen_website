@@ -1,0 +1,230 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top_nav {
+    padding: 40px 60px 10px;
+    background-color:azure;
+    
+    
+
+}
+
+
+
+
+.nav_search {
+    position: relative;
+    left: 60%;
+}
+
+.logo_png{
+    position: relative;
+    left: 40%;
+}
+
+.logo_png,.nav_search,.nav_content{
+    display: inline-block;
+}
+
+.logo_png {
+    vertical-align: middle;
+    
+}
+
+.nav_search {
+    vertical-align: middle;
+}
+
+.nav_content {
+    vertical-align: middle;
+}
+
+
+
+.nav_sticky {
+     text-align: center;
+    position: sticky;
+    text-align: center;
+    padding: 10px;
+   
+    color:rgba(255, 255, 255, 0.937);
+    background-color: #72b7eb;
+    width: 100%;
+    margin-top: 0px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    top :0px;   
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: uppercase;
+    transition: 3ms;
+    
+}
+
+.nav_sticky :hover {
+      font-size: 25px;
+      background-color: azure;
+      
+
+}
+
+.homepage_img1 {
+
+    display: flex;
+      justify-content: center;
+      size: 200px;
+
+      width: 100%;
+      height: 500px;
+      
+      background-repeat: no-repeat;
+  background-size: cover;
+  
+
+   
+
+    
+}
+
+
+.section_flexbox {
+
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 5px;
+    
+    justify-content: center;
+    flex-direction:row;
+    width: 100%;
+    height: 600px;
+
+}
+
+.section_flexbox > .box1 {
+
+    height: 500px;
+    width : 20%;
+   background-image: url('./fleximg6.avif');
+    padding: 20px;
+    margin: 20px;
+    background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.section_flexbox > .box2 {
+
+    height: 500px;
+    width : 20%;
+    background-image: url('./fleximg2.avif');
+    padding: 20px;
+    margin: 20px;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_flexbox > .box3 {
+
+    height: 500px;
+    width : 20%;
+    background-image: cover;
+    background-image: url('./fleximg3.avif');
+    padding: 20px;
+    margin: 20px;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_flexbox > .box4 {
+
+    height: 500px;
+    width : 20%;
+    background-image: url('./fleximg4.avif');
+    padding: 20px;
+    margin: 20px;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box1  :hover {
+   opacity: 0.4;
+   
+}
+
+.Book_button {
+
+    background-color: rgb(221, 16, 16);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+   align-items: center;
+   position: relative;
+   top:490px;
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 1px;
+  justify-content: center;
+  left: 60px;
+}
+
+
+.footer_section  {
+    background-color: #13274F;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+
+.footer_section > .fotter_box1 {
+
+    border: 1px;
+    width: 400px;
+    height: 250px;
+    
+    color: white;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.footer_section > .fotter_box2 {
+
+    border: 1px;
+    width: 400px;
+    height: 250px;
+   
+    color: white;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
